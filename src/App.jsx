@@ -8,6 +8,7 @@ import Hall from "./component/Hall";
 import Booking from "./component/Booking";
 import Confirm from "./component/Confirm";
 
+
 function App() {
   const [page, setPage] = useState("register");
   const [user, setUser] = useState(null);

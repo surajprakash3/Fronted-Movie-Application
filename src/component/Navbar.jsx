@@ -1,3 +1,7 @@
+
+import logo from "../assets/logo.jpg";
+
+
 function Navbar({ user, setUser, setPage }) {
   const handleLogout = () => {
     setUser(null);
@@ -6,7 +10,10 @@ function Navbar({ user, setUser, setPage }) {
 
   return (
     <nav className="navbar">
-      <h2 className="logo">Suraj</h2>
+      <div className="navbar-brand">
+        <img className="navbar-logo" src={logo} alt=" logo" />
+        <h2 className="books">Let's BookShow</h2>
+      </div>
 
       <ul className="nav-links">
         <li onClick={() => setPage("success")}>Home</li>
@@ -16,7 +23,7 @@ function Navbar({ user, setUser, setPage }) {
         {user ? (
           <li onClick={handleLogout}>Logout</li>
         ) : (
-          <li onClick={() => setPage("login")}>Login</li>
+          <li className="log" onClick={() => setPage("login")}>Login</li>
         )}
       </ul>
     </nav>

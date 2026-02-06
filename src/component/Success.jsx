@@ -65,7 +65,7 @@ function Success({ setPage, setSelectedMovie, setSelectedCity, selectedCity }) {
         </div>
 
         <div>
-          <div className="h2"><h2>Movies</h2></div>
+          <div className="h2"><h2>Latest Movies</h2></div>
           <div className="movie-controls">
             <input className="search-input" placeholder="Search movie" value={query} onChange={e => setQuery(e.target.value)} />
             <select className="city-select" value={selectedCity || ''} onChange={e => setSelectedCity(e.target.value || null)}>
