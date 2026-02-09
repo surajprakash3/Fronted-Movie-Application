@@ -21,22 +21,22 @@ const Register = ({ setPage }) => {
     <form onSubmit={handleRegister}>
       <h2>Register</h2>
 
-      <input
+      <input className="place"
         required
         placeholder="Name"
         onChange={(e) => setName(e.target.value)}
       />
-      <input
+      <input className="place"
         required
-        placeholder="Roll Number"
+        placeholder="Phone Number"
         onChange={(e) => setRoll(e.target.value)}
       />
-      <input
+      <input className="place"
         required
         placeholder="Email"
         onChange={(e) => setEmail(e.target.value)}
       />
-      <input
+      <input className="place"
         required
         type="password"
         placeholder="Password"

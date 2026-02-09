@@ -1,7 +1,8 @@
 function Footer(){
     return(
         <div className="footer">
-        Movie Booking Application
+        Experience Cinema Like Never Before | Powered by Let’s BookShow
+
         </div>
     )
 }

@@ -23,16 +23,18 @@ const Login = ({ setPage, setUser }) => {
   };
 
   return (
-    <form onSubmit={handleLogin}>
+  <div className="for">
+      <form onSubmit={handleLogin}>
       <h2>Login</h2>
-      <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
-      <input type="password" placeholder="Password" onChange={e => setPassword(e.target.value)} />
+      <input className="place" placeholder="Email" onChange={e => setEmail(e.target.value)} />
+      <input className="place" type="password" placeholder="Password" onChange={e => setPassword(e.target.value)} />
 
       <div style={{ display: 'flex', gap: 8, justifyContent: 'center' }}>
         <button type="button" onClick={() => setPage("register")}>Back</button>
         <button type="submit">Login</button>
       </div>
     </form>
+  </div>
   );
 };
 

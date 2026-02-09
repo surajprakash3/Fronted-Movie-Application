@@ -1,4 +1,4 @@
-/* App-wide styles */
+/* App-wide styles
 :root{
   --bg:#0f172a;
   --card:#0b1220;
@@ -67,7 +67,8 @@ form{
   padding:20px;
 }
 .hall-card{
-  background: linear-gradient(180deg,#021024,#06142a);
+  /* background: linear-gradient(180deg,#021024,#06142a); */
+   background: linear-gradient(90deg,#0f172a,#19356e,#0f172a);
   border-radius:10px;
   overflow:hidden;
   cursor:pointer;
@@ -97,4 +98,4 @@ button:hover{opacity:0.95}
 }
 .search-input{
   background-color: #47bb9e;
-}
+} */
