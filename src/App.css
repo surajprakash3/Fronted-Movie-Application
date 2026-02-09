@@ -92,3 +92,9 @@ button:hover{opacity:0.95}
   .booking-side{flex-direction:column}
   form{width:90%; margin:12px auto}
 }
+.city-select{
+  background-color: #47bb9e;
+}
+.search-input{
+  background-color: #47bb9e;
+}

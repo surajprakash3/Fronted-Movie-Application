@@ -7,6 +7,7 @@ import Navbar from "./component/Navbar";
 import Hall from "./component/Hall";
 import Booking from "./component/Booking";
 import Confirm from "./component/Confirm";
+import Footer from "./component/Footer";
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           setPage={setPage}
         />
       )}
+      <Footer user={user} setUser={setUser} setPage={setPage} />
     </>
   );
 }
