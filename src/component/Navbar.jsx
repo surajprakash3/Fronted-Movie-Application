@@ -17,9 +17,9 @@ function Navbar({ user, setUser, setPage }) {
 
       <ul className="nav-links">
         <li onClick={() => setPage("success")}>Home</li>
-        <li>About</li>
+        {/* <li>About</li>
         <li>Services</li>
-        <li>Contact</li>
+        <li>Contact</li> */}
         {user ? (
           <li onClick={handleLogout}>Logout</li>
         ) : (
